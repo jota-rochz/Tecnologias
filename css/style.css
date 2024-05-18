@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* variaveis para as cores */
+:root {
+    --fundo-menu-lateral:#274259;
+    --ver-texto:#05F2F2;
+    --roxo:#54578C;
+    --texto-claro:#C2F2F2;
+    --verde-água:#05F2DB;
+    --texto-opção:#4AC9DC;
+    --fundo:#0F1526;
+}
+
+/* Mobile Menu */
+
+
+
+/* css principal */
+body {
+    font-family: "open sans";
+    color: var(--texto-claro);
+    background: var(--fundo-menu-lateral);
+}
+
+a {
+    color: var(--texto-claro);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--ver-texto);
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "open sans";
+}
+
+/* cabeçalho */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    background: var(--fundo);
+    transition: all ease-in-out 0.5s;
+    padding: 0 15px;
+    z-index: 99999;
+    overflow-y: auto;
+}
+
+.perfil img {
+    margin: 35px auto;
+    display: flex;
+    width: 190px;
+    border: 2px solid var(--ver-texto);
+    box-shadow: 0px 0px 10px 5px var(--ver-texto);
+}
