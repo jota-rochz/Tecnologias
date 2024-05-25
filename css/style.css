@@ -248,7 +248,76 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 768px) {
     #hero h1 {
-        font-size: 30px;
+        font-size: 70px;
         line-height: 36px;
+        margin-bottom: 20px;
+    }
+
+    #hero p {
+        font-size: 30px;
     }
 }
+
+/* CSS Geral */
+
+section {
+    padding: 60px 0;
+}
+
+.section-bg {
+    background: var(--fundo-menu-lateral);
+}
+
+.section-title {
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: var(--ver-texto);
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 3px;
+    background: var(--ver-texto);
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+/* sobre */
+.sobre .conteiner h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--ver-texto);
+}
+
+.sobre .conteiner ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sobre .conteiner ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sobre .conteiner ul strong {
+    margin-right: 15px;
+}
+
+.sobre .conteiner ul i {
+    font-size: 22px;
+    margin-right: 10px;
+    color: var(--ver-texto);
+    line-height: 0;
+}
+
