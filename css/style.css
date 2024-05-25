@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero::before { /* pseudo elemento css */
     content: "";
-    background: rgba(5, 13, 26, 0.3);
+    background: rgba(5, 13, 26, 0.0);
     position: absolute;
     top: 0;
     right: 0;
@@ -319,5 +319,39 @@ section {
     margin-right: 10px;
     color: var(--ver-texto);
     line-height: 0;
+}
+
+/* Conquistas */
+.conquistas {
+    padding-bottom: 30px;
+}
+
+.conquistas .count-box {
+    padding: 30px;
+    width: 100%;
+}
+
+.conquistas .count-box i{
+    display: block;
+    font-size: 45px;
+    color: var(--ver-texto);
+    float: left;
+    line-height: 0;
+}
+
+.conquistas .count-box span {
+    font-size: 50px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: var(--texto-claro);
+    margin-left: 60px;
+} 
+
+.conquistas .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    font-size: 16px;
+    color: var(--ver-texto);
 }
 
