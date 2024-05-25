@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 320px;
+    width: 300px;
     background: var(--fundo);
     transition: all ease-in-out 0.5s;
     padding: 0 15px;
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .perfil h1 {
-    font-size: 26px;
+    font-size: 40px;
     margin: 0;
     padding: 0;
     font-weight: 600;
@@ -87,8 +87,33 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
-/* menu nav desktop */
+ /* principal */
+#main {
+    margin-left: 300px;
+}
 
+.conteiner,
+.conteiner-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (max-width: 1199px) {
+    #header {
+        left: -300px;
+    }
+    #main {
+        margin-left: 0;
+    }
+
+    .conteiner,
+    .conteiner-fluid {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+/* menu nav desktop */
 .nav-menu {
     padding: 30px 0 0 0;
 }
@@ -164,6 +189,10 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
 }
 
+.mobile-nav-active #header {
+    left: 0;
+}
+
 /* Hero */
 #hero {
     width: 100%;
@@ -209,4 +238,17 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 4px;
     letter-spacing: 1px;
     border-bottom: 3px solid var(--fundo-menu-lateral);
+}
+
+@media(min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 768px) {
+    #hero h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
 }
