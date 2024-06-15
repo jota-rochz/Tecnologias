@@ -543,3 +543,50 @@ section {
     bottom: 0;
 }
 
+/* portfolio pagina adicional */
+
+/* voltar */
+
+.servicos .icon-bx {
+    margin-bottom: 20px;
+}
+
+.servicos .icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: var(--fundo);
+    border-radius: 50%;
+    margin-right: 12px;
+    transition: 0.5s;
+    border: 2px solid var(--ver-texto);
+    box-shadow: 0 0 8px 2px var(--ver-texto);
+}
+
+.servicos .icon i {
+    font-size: 35px;
+    color: var(--ver-texto);
+    line-height: 0;
+}
+
+.servicos .icon:hover {
+    background: var(--texto-claro);
+    transition: 0.5s;
+}
+
+.servicos .title {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--ver-texto);
+}
+
+.servicos .descricao {
+    margin-left: 60px;
+    line-height: 19px;
+    font-size: 18px;
+}
