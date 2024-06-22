@@ -590,3 +590,34 @@ section {
     line-height: 19px;
     font-size: 18px;
 }
+
+/* depoimentos // feedbacks // avaliações */
+
+.depoimentos,
+.depoimentos .depoimentos-slider {
+    overflow: hidden;
+}
+
+.depoimentos .depoimento-item {
+    text-align: center;
+    min-height: 320px;
+}
+
+.depoimentos .depoimento-item .depoimento-img {
+    width: 90px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.depoimentos .depoimento-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: var(--texto-claro);
+}
+
+.depoimentos .depoimento-item h4 {
+    font-size: 14px;
+    margin: 0;
+    color: var(--ver-texto);
+}
