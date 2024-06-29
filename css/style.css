@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     background: var(--fundo);
     transition: all ease-in-out 0.5s;
     padding: 0 15px;
-    z-index: 99999;
+    z-index: 9997;
     overflow-y: auto;
 }
 
@@ -808,3 +808,40 @@ section {
     opacity: 1;
 }
 /* -----breadcrumbs----- */
+
+
+/* footer */
+#footer {
+    padding: 30px;
+    color: var(--texto-claro);
+    font-size: 16px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9999;
+    background: var(--fundo);
+}
+
+#footer .copyright {
+    text-align: center;
+}
+
+#footer .creditos {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: var(--texto-claro);
+}
+
+#footer .creditos a {
+    color: var(--texto-claro);
+}
+
+@media (max-width:1199) {
+    #footer {
+        position: static;
+        width: auto;
+        padding-right: 20px 15px;
+    }
+}
